@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Highcharts Test
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Highcharts Test</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<br>
+  <div id="container2">
+    <highcharts-chart
+  [Highcharts]="Highcharts2"
+  [options]="chartOptions2"
+
+  style="width: 100%; height: 400px; display: flex;"
+></highcharts-chart>
+  </div>
+</ion-content>
