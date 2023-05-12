@@ -16,10 +16,40 @@
 <br>
   <div id="container2">
     <highcharts-chart
-  [Highcharts]="Highcharts2"
-  [options]="chartOptions"
+      [Highcharts]="Highcharts"
+      [options]="mileageOptions"
 
-  style="width: 100%; height: 400px; display: flex;"
-></highcharts-chart>
+      style="width: 100%; height: 400px; display: flex;"
+    ></highcharts-chart>
   </div>
+
+<br>
+<div id="container2">
+  <highcharts-chart
+    [Highcharts]="Highcharts"
+    [options]="driverBehaviourOptions"
+
+    style="width: 100%; height: 400px; display: flex;"
+  ></highcharts-chart>
+</div>
+
+<br>
+<div id="container2">
+  <highcharts-chart
+    [Highcharts]="Highcharts"
+    [options]="utilisationOptions"
+
+    style="width: 100%; height: 400px; display: flex;"
+  ></highcharts-chart>
+</div>
+
+<br>
+<div id="container2">
+  <highcharts-chart
+    [Highcharts]="Highcharts"
+    [options]="fuelConsumptionOptions"
+
+    style="width: 100%; height: 400px; display: flex;"
+  ></highcharts-chart>
+</div>
 </ion-content>
